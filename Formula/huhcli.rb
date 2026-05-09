@@ -3,8 +3,8 @@ class Huhcli < Formula
 
   desc "AI CLI Syntax Autocorrector"
   homepage "https://github.com/heydaytime/huhcli"
-  url "https://github.com/heydaytime/huhcli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "57d0c65e8fb21bc872fff7bb9e71cc071bf1eb88ee7a27f5b48b00c1e2d3059f"
+  url "https://github.com/heydaytime/huhcli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "eace25daafce1b9b1d4c5605ed3be40cd10196f5174b00e8454a169ea6bbb519"
   license "MIT"
 
   depends_on "python@3.12"
