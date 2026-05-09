@@ -3,8 +3,8 @@ class Huhcli < Formula
 
   desc "AI CLI Syntax Autocorrector"
   homepage "https://github.com/heydaytime/huhcli"
-  url "https://github.com/heydaytime/huhcli/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "6a5b698b5089a7c0c2860c0dc72b394ef7b2673723191bc5daf03b3912bfb346"
+  url "https://github.com/heydaytime/huhcli/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "a063e678861054047dbb65ae2f08c3183e61a04af93c35757575e76aaec40942"
   license "MIT"
 
   depends_on "python@3.12"
@@ -76,26 +76,25 @@ class Huhcli < Formula
 
   def install
     virtualenv_install_with_resources
-    bin.install_symlink libexec/"bin/huh" => "huhcli"
   end
 
   def caveats
     <<~EOS
       To finish setup, run:
 
-        huhcli setup
+        huh setup
 
       This adds a shell function to your ~/.zshrc or ~/.bashrc.
       Then reload your shell and select a model:
 
         source ~/.zshrc   # or ~/.bashrc
-        huhcli select
+        huh select
 
-      Make sure Ollama is running before using huhcli.
+      Make sure Ollama is running before using huh.
     EOS
   end
 
   test do
-    system "#{bin}/huhcli", "--help"
+    system "#{bin}/huh", "--help"
   end
 end
