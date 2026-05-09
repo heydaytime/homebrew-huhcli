@@ -10,17 +10,17 @@ class Huhcli < Formula
   depends_on "python@3.12"
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/af/37/ffaee1dbe37ae9440cb4e8f11686ea5ce4e9bae01b84ae7c63b87f1dd3b/typer-0.16.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/t/typer/typer-0.16.0.tar.gz"
     sha256 "af377ffaee1dbe37ae9440cb4e8f11686ea5ce4e9bae01b84ae7c63b87f1dd3b"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36/rich-15.0.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/r/rich/rich-15.0.0.tar.gz"
     sha256 "ed07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517/requests-2.33.1.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/r/requests/requests-2.33.1.tar.gz"
     sha256 "18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517"
   end
 
