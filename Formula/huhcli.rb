@@ -16,7 +16,7 @@ class Huhcli < Formula
 
   resource "rich" do
     url "https://files.pythonhosted.org/packages/source/r/rich/rich-15.0.0.tar.gz"
-    sha256 "ed07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
+    sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
 
   resource "requests" do
