@@ -10,18 +10,18 @@ class Huhcli < Formula
   depends_on "python@3.12"
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/e6/7e/e26b8f1bd9d982891dc93b5006c80b52b92f0b64626a53bfc4e3d0e5c6ce/typer-0.16.0.tar.gz"
-    sha256 "18447e58f6f4379ba51785f2ba469acc5981fdb921f6d75f25726f0190ca4c5a"
+    url "https://files.pythonhosted.org/packages/af/37/ffaee1dbe37ae9440cb4e8f11686ea5ce4e9bae01b84ae7c63b87f1dd3b/typer-0.16.0.tar.gz"
+    sha256 "af377ffaee1dbe37ae9440cb4e8f11686ea5ce4e9bae01b84ae7c63b87f1dd3b"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/a2/18/470f024c5c3b6aff12fbf8f43e6aa0de4d9e31782c783b8c22b29f96863d/rich-13.0.1.tar.gz"
-    sha256 "12b1d77ee7ed25110be74521e28ff1637dee4909f7a33aa52a2178e9f1c5dc43"
+    url "https://files.pythonhosted.org/packages/edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36/rich-15.0.0.tar.gz"
+    sha256 "ed07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9c/28/6f7b6b6b6b6b6b6b6b6b6b6b6b6b6b6b6/requests-2.32.3.tar.gz"
-    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
+    url "https://files.pythonhosted.org/packages/18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517/requests-2.33.1.tar.gz"
+    sha256 "18817f8c57c6263968bc123d237e3b8b08ac046f5456bd1e307ee8f4250d3517"
   end
 
   def install
